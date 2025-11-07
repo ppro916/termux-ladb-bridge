@@ -1,4 +1,6 @@
-name: Android Release Build
+name: Build Release APK
+        run: ./gradlew assembleRelease
+        working-directory: android
 
 on:
   workflow_dispatch:
